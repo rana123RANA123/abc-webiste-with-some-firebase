@@ -1,0 +1,120 @@
+.anter {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+.anter:hover {
+    color: rgb(231, 118, 118);
+}
+
+.background {
+    background-image: url('../assets/img/hero/h1_hero1.jpg');
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fontSize {
+    font-size: 40px;
+}
+
+.fontHeader {
+    font-size: 60px;
+
+}
+
+.btn:hover {
+    background-color: white;
+    color: red;
+}
+
+.topbtn {
+    background-color: red;
+    color: white;
+}
+
+.topbtn:hover {
+    background-color: white;
+    color: red;
+}
+
+.wantBg1 {
+    background-image: url('../assets/img/gallery/wants-bg1.jpg');
+    height: 240px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wantBg2 {
+    background-image: url('../assets/img/gallery/wants-bg2.jpg');
+    height: 240px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sectionBg1 {
+    background-image: url('../assets/img/gallery/section-bg1.jpg');
+    height: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero2 {
+    background-image: url('../assets/img/hero/header\ image.jpg');
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#forgot {
+    color: black;
+}
+
+#forgot:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.boxShadow {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+tr{
+    height: "300px";
+}
+
+
+// slider on top 
+#back-top {
+    background: #FF1616;
+    height: 50px;
+    width: 50px;
+    right: 31px;
+    bottom: 18px;
+    position: fixed;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 48px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2)
+}
+
+@media (max-width: 575px) {
+    #back-top {
+        right: 16px
+    }
+}
+
+#back-top a i {
+    display: block;
+    line-height: 50px
+}
